@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ScanIT": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Jkreis -h -f 204800"
+    }
+  }
+}

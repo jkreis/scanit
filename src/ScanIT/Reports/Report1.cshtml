@@ -1,0 +1,117 @@
+﻿<HTML>
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body class="panel panel-body">
+    <h1>Report For -Root Directory-</h1>
+    <div id="Root">
+        <div class="panel">
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="#largefiles" role="tab" data-toggle="tab">Large Files</a></li>
+                <li role="presentation"><a href="#duplicatefiles" role="tab" data-toggle="tab">Duplicates</a></li>
+                <li role="presentation"><a href="#oldfiles" role="tab" data-toggle="tab">Old Files</a></li>
+                <li role="presentation"><a href="#directorystats" role="tab" data-toggle="tab">Directory Statistics</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="largefiles">
+                    <table class="table table-bordered table-striped" id="LargeFiles">
+                        <thead>
+                            <tr>
+                                <th>File Name</th>
+                                <th>Size</th>
+                                <th>Date Modified</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Example.jpg</td>
+                                <td>30 KB</td>
+                                <td>6/22/2016</td>
+                            </tr>
+                            <tr>
+                                <td>Document.docx</td>
+                                <td>60 KB</td>
+                                <td>6/22/2016</td>
+                            </tr>
+                            <tr>
+                                <td>Big.zip</td>
+                                <td>221 MB</td>
+                                <td>6/22/2016</td>
+                            </tr>
+                            <tr>
+                                <td>Video.mp4</td>
+                                <td> 129 MB</td>
+                                <td>6/22/2016</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="duplicatefiles">
+                    <table class="table table-bordered table-striped" id="DuplicateFiles">
+                        <thead>
+                            <tr>
+                                <th>File Name</th>
+                                <th>Size</th>
+                                <th>Date Modified</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Picture.jpg</td>
+                                <td>2.4 MB</td>
+                                <td>5/2/2016</td>
+                            </tr>
+                            <tr>
+                                <td>Zordon.docx</td>
+                                <td>60 KB</td>
+                                <td>6/22/2016</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="oldfiles">
+                    <table class="table table-bordered table-striped" id="OldFiles">
+                        <thead>
+                            <tr>
+                                <th>File Name</th>
+                                <th>Size</th>
+                                <th>Date Modified</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Spreadsheet.xlsx</td>
+                                <td>78 KB</td>
+                                <td>6/20/2006</td>
+                            </tr>
+                            <tr>
+                                <td>PowerPoint.pptx</td>
+                                <td>123 KB</td>
+                                <td>4/12/2002</td>
+                            </tr>
+                            <tr>
+                                <td>Drawing.sld</td>
+                                <td>245 KB</td>
+                                <td>7/4/2003</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="directorystats">
+                    <div>
+                        <details>
+                            <summary class="h4">C:\Users\jkreis\Downloads\</summary>
+                            Total Files:
+                            Total Size:
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</HTML>
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</footer>
